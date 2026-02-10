@@ -2,9 +2,10 @@ package database
 
 import (
 	"database/sql"
-	"digital-wallet-application/internal/config"
 	"fmt"
 	"log"
+
+	"digital-wallet-application/internal/config"
 
 	_ "github.com/lib/pq"
 )

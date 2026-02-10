@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/gofrs/uuid"
+	"github.com/google/uuid"
 )
 
 type TransactionType string
@@ -17,7 +17,7 @@ const (
 type TransactionStatus string
 
 const (
-	TransactionStatusSuccess TransactionStatus = "status"
+	TransactionStatusSuccess TransactionStatus = "success"
 	TransactionStatusFailed  TransactionStatus = "failed"
 )
 

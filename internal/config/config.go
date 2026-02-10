@@ -28,7 +28,7 @@ func LoadConfig() *Config {
 		DBPort:     getEnv("DB_PORT", "5432"),
 		DBUser:     getEnv("DB_USER", "postgres"),
 		DBPassword: getEnv("DB_PASSWORD", "postgres"),
-		DBName:     getEnv("DB_NAME", "digital_wallet"),
+		DBName:     getEnv("DB_NAME", "db_digital_wallet"),
 		DBSSLMode:  getEnv("DB_SSLMODE", "disable"),
 		AppPort:    getEnv("APP_PORT", "8080"),
 	}
